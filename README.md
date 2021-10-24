@@ -16,3 +16,6 @@ To run "inclass" package, use "NestedInterfaceInClass.java".
 
 To run "ininterface" package, use  "NestedInterface.java".
 
+## Example 3: Dependency Injection 
+
+The example aims that show dependency injection implementation. To run the example, use "Main.java" in the package.
