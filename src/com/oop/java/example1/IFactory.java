@@ -3,7 +3,7 @@ package com.oop.java.example1;
 import java.awt.Color;
 import java.util.HashMap;
 
-public interface IFabric<T> {
+public interface IFactory<T> {
   public static final int LUX_TRUCK_PRICE = 100000;
   public static final int MID_TRUCK_PRICE = 50000;
   public static final int CHEAP_TRUCK_PRICE = 10000;

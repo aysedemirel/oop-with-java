@@ -1,7 +1,7 @@
 # oop-with-java
 Object Oriented Programming Exercises
 
-## Example 1: Fabric Project - Line of product 
+## Example 1: Factory Project - Line of product 
 This example aims to show the usage of Interface in Java.  To run the example, use "Main.java".
 
 If you want to read about Interface you can check my blog:

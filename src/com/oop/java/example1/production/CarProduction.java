@@ -2,7 +2,7 @@ package com.oop.java.example1.production;
 
 import java.awt.Color;
 import java.util.HashMap;
-import com.oop.java.example1.IFabric;
+import com.oop.java.example1.IFactory;
 import com.oop.java.example1.model.Car;
 
 /**
@@ -10,7 +10,7 @@ import com.oop.java.example1.model.Car;
  * 
  * @author aysedemirel
  */
-public class CarProduction implements IFabric<Car> {
+public class CarProduction implements IFactory<Car> {
 
   private HashMap<Integer, Car> carList;
   private int lastProductNo = 1;

@@ -8,12 +8,12 @@ import com.oop.java.example1.production.TruckProduction;
 
 public class Main {
   public static void main(String[] args) {
-    IFabric<Car> carProduction = new CarProduction();
-    IFabric<Truck> truckProduction = new TruckProduction();
+    IFactory<Car> carProduction = new CarProduction();
+    IFactory<Truck> truckProduction = new TruckProduction();
 
     System.out.println("--------- CAR ----------");
 
-    Car newCar = carProduction.product("Porsche", Color.RED, IFabric.LUX_CAR_PRICE);
+    Car newCar = carProduction.product("Porsche", Color.RED, IFactory.LUX_CAR_PRICE);
     System.out.println(newCar.toString());
 
     System.out.println("-------------------");
@@ -22,7 +22,7 @@ public class Main {
     customerRequest.setBrand("Audi");
     customerRequest.setBroken(false);
     customerRequest.setColor(Color.PINK);
-    customerRequest.setPrice(IFabric.MID_CAR_PRICE);
+    customerRequest.setPrice(IFactory.MID_CAR_PRICE);
     customerRequest.setSeatCapacity(2);
     customerRequest.setSportCar(true);
 
@@ -31,7 +31,7 @@ public class Main {
 
     System.out.println("-------- TRUCK -----------");
 
-    Truck newTruck = truckProduction.product("Ford", Color.GRAY, IFabric.MID_TRUCK_PRICE);
+    Truck newTruck = truckProduction.product("Ford", Color.GRAY, IFactory.MID_TRUCK_PRICE);
     System.out.println(newTruck.toString());
 
     System.out.println("-------------------");
